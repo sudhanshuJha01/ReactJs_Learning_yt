@@ -6,7 +6,8 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
-  background-color: black;
+  background-color: rgb(34, 6, 124);
+  color: rgb(49, 166, 6);
 }
 
 h1 {
@@ -64,14 +65,19 @@ body {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 140px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 140px;
+  font-size: xx-large;
 }
 
+.squares{
+  margin-top: 150px;
+  margin-left: 400px;
+}
 .board-row:after {
   clear: both;
   content: "";
@@ -80,6 +86,7 @@ body {
 
 .status {
   margin-bottom: 10px;
+  font-size: xx-large;
 }
 .game {
   display: flex;
@@ -88,4 +95,11 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+.heading{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:bold;
+  font-size: 80px;
+  margin-top: 29px;
 }

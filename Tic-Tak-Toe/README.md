@@ -1,4 +1,6 @@
 # React + Vite
+![Alt text](/Tic-Tak-Toe/src/assets/Screenshot%202024-04-23%20150515.png)
+![Alt text](/Tic-Tak-Toe/src/assets/Screenshot%202024-04-23%20150554.png)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
