@@ -1,6 +1,6 @@
 # React + Vite
 -watch the video
-[![Watch the video](/LandingPage/src/assets/Screenshot%202024-04-23%20153005.png)](/LandingPage/src/assets/video.mp4)
+[![Watch the video](/LandingPage/src/assets/Screenshot%202024-04-23%20153005.png)](/LandingPage/src/assets/Untitled%20video%20-%20Made%20with%20Clipchamp.mp4)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
