@@ -35,28 +35,30 @@ function App() {
   }, [numberAllowed, charAllowed, length, passwordGenerator]);
   return (
     <>
-      <div className="mx-auto border-2 border-black shadow-sm rounded-md w-2/3 my-16 h-2/4 bg-slate-500 text-white">
-        <h1 className="text-center text-2xl font-bold">Password Generator</h1>
+      <div className="mx-auto p-5 shadow-2xl rounded-md w-2/3 my-16 h-2/4 bg-slate-500 text-white">
+        <h1 className="text-center text-2xl my-2 font-bold">Password Generator</h1>
         <div className="flex items-center justify-center">
           <input type="text" value={password} 
-            className="text-orange-600"
+            className="text-orange-600 outline-none p-1 w-1/3 text-2xl mx-3 my-2 rounded-xl"
             placeholder="password"
-            ref={passWordRef}
             readOnly
+            ref={passWordRef}
            />
           <button 
+          className="bg-blue-600 p-3 rounded-2xl font-bold hover:bg-blue-800"
           onClick={handleCopyInClipbord}
           >Copy</button>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center gap-1">
           <input 
+          className="w-32 "
           type="range"
            min={8} 
-           max={20} 
+           max={20}
            id="length" 
            onChange={(e)=>{setlength(e.target.value)}}
            />
-           <label htmlFor="length">Length {length}</label>
+           <label className="text-xl mx-3 " htmlFor="length">Length {length}</label>
           <input 
           type="checkbox" 
           defaultChecked={numberAllowed}
@@ -65,7 +67,7 @@ function App() {
             setNumbersAllowed((prev) => !prev);
         }}
           />
-          <label htmlFor="number">Number</label>
+          <label className="text-xl mx-3 " htmlFor="number">Number</label>
           <input 
           type="checkbox" 
           defaultChecked={charAllowed}
@@ -74,7 +76,7 @@ function App() {
             setCharAllowed((prev) => !prev);
         }}
           />
-          <label htmlFor="Char">Char</label>
+          <label className="text-xl mx-3 " htmlFor="Char">Char</label>
         </div>
       </div>
     </>
